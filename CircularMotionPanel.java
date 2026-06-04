@@ -49,3 +49,8 @@ public class CircularMotionPanel extends JPanel {
             rField.setText("1.0");
             vField.setText("0.0");
         });
+        bottom.add(reset);
+
+        add(bottom, BorderLayout.SOUTH);
+    }
+}
